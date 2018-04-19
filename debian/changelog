@@ -1,0 +1,51 @@
+ros-lunar-gcloud-speech (0.0.5-1stretch) stretch; urgency=high
+
+  * Sync googleapis with upstream, and fixes a bug that gcloud_speech not
+    working with latest grpc.
+  * Contributors: Shengye Wang
+
+ -- Shengye Wang <shengye@ucsd.edu>  Wed, 18 Apr 2018 07:00:00 -0000
+
+ros-lunar-gcloud-speech (0.0.4-1stretch) stretch; urgency=high
+
+  * Fixes a problem that the binrary/libraries are not packed into deb file (#18 <https://github.com/CogRob/gcloud_speech/issues/18>)
+  * Contributors: Shengye Wang
+
+ -- Shengye Wang <shengye@ucsd.edu>  Sat, 07 Oct 2017 07:00:00 -0000
+
+ros-lunar-gcloud-speech (0.0.3-1stretch) stretch; urgency=high
+
+  * Adds catkin_INCLUDE_DIRS to include_directories (#16 <https://github.com/CogRob/gcloud_speech/issues/16>)
+  * Contributors: Shengye Wang
+
+ -- Shengye Wang <shengye@ucsd.edu>  Fri, 06 Oct 2017 07:00:00 -0000
+
+ros-lunar-gcloud-speech (0.0.2-1stretch) stretch; urgency=high
+
+  * Fixes a problem that gflags is not found in the action server node source (#14 <https://github.com/CogRob/gcloud_speech/issues/14>)
+  * Contributors: Shengye Wang
+
+ -- Shengye Wang <shengye@ucsd.edu>  Fri, 06 Oct 2017 07:00:00 -0000
+
+ros-lunar-gcloud-speech (0.0.1-1stretch) stretch; urgency=high
+
+  * Removes the clicking sound in playback microphone node (#9 <https://github.com/CogRob/gcloud_speech/issues/9>)
+  * Adds a playback node to gcloud_speech_utils (#7 <https://github.com/CogRob/gcloud_speech/issues/7>)
+    * Adds a microphone playback node
+    * Use a newer version of record_audio.cc, and adds a playback node to utils
+  * Adds documents and examples, fixes bugs. (#6 <https://github.com/CogRob/gcloud_speech/issues/6>)
+    * Move print_rms exclusively to utils package
+    * Implements auto retrying if failed prematurely within 300ms (default)
+    * Adds some information in README file
+    * Documentation
+    * Document update
+    * URL better to be link
+    * Adds a All-In-One launch file that demos the program
+  * Adds googleapis/.GIT_STATUS file to record the source googleapis version. (#5 <https://github.com/CogRob/gcloud_speech/issues/5>)
+  * Adds channel connect and channel check to google_speech (#3 <https://github.com/CogRob/gcloud_speech/issues/3>)
+  * Initial commit. (#1 <https://github.com/CogRob/gcloud_speech/issues/1>)
+  * Contributors: Shengye Wang
+
+ -- Shengye Wang <shengye@ucsd.edu>  Fri, 06 Oct 2017 07:00:00 -0000
+
+
