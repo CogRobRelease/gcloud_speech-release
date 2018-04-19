@@ -1,0 +1,32 @@
+ros-lunar-gcloud-speech-msgs (0.0.5-1stretch) stretch; urgency=high
+
+
+
+ -- Shengye Wang <shengye@ucsd.edu>  Wed, 18 Apr 2018 07:00:00 -0000
+
+ros-lunar-gcloud-speech-msgs (0.0.4-1stretch) stretch; urgency=high
+
+
+
+ -- Shengye Wang <shengye@ucsd.edu>  Sat, 07 Oct 2017 07:00:00 -0000
+
+ros-lunar-gcloud-speech-msgs (0.0.3-1stretch) stretch; urgency=high
+
+
+
+ -- Shengye Wang <shengye@ucsd.edu>  Fri, 06 Oct 2017 07:00:00 -0000
+
+ros-lunar-gcloud-speech-msgs (0.0.2-1stretch) stretch; urgency=high
+
+
+
+ -- Shengye Wang <shengye@ucsd.edu>  Fri, 06 Oct 2017 07:00:00 -0000
+
+ros-lunar-gcloud-speech-msgs (0.0.1-1stretch) stretch; urgency=high
+
+  * Initial commit. (#1 <https://github.com/CogRob/gcloud_speech/issues/1>)
+  * Contributors: Shengye Wang
+
+ -- Shengye Wang <shengye@ucsd.edu>  Fri, 06 Oct 2017 07:00:00 -0000
+
+
