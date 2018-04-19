@@ -1,3 +1,29 @@
+## gcloud_speech (lunar) - 0.0.5-0
+
+The packages in the `gcloud_speech` repository were released into the `lunar` distro by running `/usr/local/bin/bloom-release gcloud_speech --track lunar --rosdistro lunar` on `Thu, 19 Apr 2018 06:22:56 -0000`
+
+These packages were released:
+- `gcloud_speech`
+- `gcloud_speech_msgs`
+- `gcloud_speech_utils`
+
+Version of package(s) in repository `gcloud_speech`:
+
+- upstream repository: https://github.com/CogRob/gcloud_speech.git
+- release repository: https://github.com/CogRobRelease/gcloud_speech-release.git
+- rosdistro version: `0.0.4-0`
+- old version: `0.0.4-0`
+- new version: `0.0.5-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.4`
+- catkin_pkg version: `0.4.1`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.8`
+- vcstools version: `0.1.40`
+
+
 ## gcloud_speech (indigo) - 0.0.5-0
 
 The packages in the `gcloud_speech` repository were released into the `indigo` distro by running `/usr/local/bin/bloom-release gcloud_speech --track indigo --rosdistro indigo` on `Thu, 19 Apr 2018 06:16:55 -0000`
