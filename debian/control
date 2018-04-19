@@ -1,0 +1,12 @@
+Source: ros-indigo-gcloud-speech-utils
+Section: misc
+Priority: extra
+Maintainer: Shengye Wang <shengye@ucsd.edu>
+Build-Depends: debhelper (>= 9.0.0), libgflags-dev, libgoogle-glog-dev, portaudio19-dev, python-pyaudio, ros-indigo-actionlib, ros-indigo-actionlib-msgs, ros-indigo-catkin, ros-indigo-gcloud-speech-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-gcloud-speech-utils
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libgflags-dev, libgoogle-glog-dev, portaudio19-dev, python-pyaudio, ros-indigo-actionlib, ros-indigo-actionlib-msgs, ros-indigo-gcloud-speech-msgs
+Description: Utilities and examples for gcloud_speech package.
